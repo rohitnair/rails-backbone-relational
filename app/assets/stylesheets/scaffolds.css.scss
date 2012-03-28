@@ -1,0 +1,92 @@
+body {
+  width: 520px;
+  margin: 0 auto;
+  background-color: #eee;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #000;
+  &:visited {
+    color: #666; } }
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px; } }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff; }
+  ul li {
+    font-size: 12px;
+    list-style: square; } }
+
+#backbone_app {
+  padding: 20px;
+  background-color: white; 
+  li {
+    position: relative; 
+    margin: 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    li {
+      padding-bottom: 0;
+      border: none; }
+    .destroy {
+      width: 26px;
+      height: 26px;
+      position: absolute;
+      right: 5px;
+      top: -5px;
+      cursor: pointer;
+      display: block;
+      background-image: url('glyphicons_192_circle_remove.png');
+      background-repeat: no-repeat; }
+    .edit {
+      width: 26px;
+      height: 26px;
+      position: absolute;
+      right: 35px;
+      top: -5px;
+      cursor: pointer;
+      background-image: url('glyphicons_151_edit.png');
+      background-repeat: no-repeat; } } 
+  #new_post {
+    border-bottom: 1px solid black; } 
+  .title {
+    font-weight: bold;
+    font-size: 15px; } } 
+

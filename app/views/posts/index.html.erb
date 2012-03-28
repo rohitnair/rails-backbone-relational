@@ -1,0 +1,12 @@
+<div id="backbone_app">
+  <div id="new_post"></div>
+  <div id="posts"></div>
+</div>
+
+<script type="text/javascript">
+  $(function() {
+    // Blog is the app name
+    window.router = new RailsBackboneRelational.Routers.PostsRouter({posts: <%= @posts.to_json({:include => :comments}).html_safe -%>});
+    Backbone.history.start();
+  });
+</script>

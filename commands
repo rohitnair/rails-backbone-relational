@@ -1,0 +1,18 @@
+rails g backbone:install
+rails g scaffold Post title:string content:string
+rake db:migrate
+rails g backbone:scaffold Post title:string content:string
+
+rails g scaffold Comment content:string
+rails g backbone:scaffold Comment content:string
+rails g migration AddPostIdToComments post_id:integer
+
+edit models and add associations
+
+cp ~/Downloads/PaulUithol-Backbone-relational-337a97b/backbone-relational.js vendor/assets/javascripts/.
+
+edit backbone model and add relation
+
+check rails-backbone version
+
+
