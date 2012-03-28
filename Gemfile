@@ -38,3 +38,5 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'rails-backbone', '0.7.0'
+
+gem 'thin'
