@@ -9,6 +9,7 @@ class RailsBackboneRelational.Models.Post extends Backbone.RelationalModel
     key: 'comments'
     relatedModel: 'RailsBackboneRelational.Models.Comment'
     collectionType: 'RailsBackboneRelational.Collections.CommentsCollection'
+    includeInJSON: 'false'
     reverseRelation:
       key: 'post_id',
       includeInJSON: 'id'
