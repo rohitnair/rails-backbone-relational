@@ -57,7 +57,6 @@ class PostsController < ApplicationController
   # PUT /posts/1.json
   def update
     @post = Post.find(params[:id])
-    params[:post][:comments] = []
 
     respond_to do |format|
       if @post.update_attributes(params[:post])
