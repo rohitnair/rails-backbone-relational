@@ -5,6 +5,8 @@ integrating Backbone, and the Backbone-relational lib to maintain relations in
 Backbone. Slightly inspired by the example Todo app in the Backbone docs.
 You can find a working demo here http://rails-backbone-relational.herokuapp.com/posts
 This demo uses a localStorage adapter and doesn't actually store anything on the DB
+I've also written up a blog post explaining the key aspects of this demo app. You
+can find it at http://rohitnair.info/?p=236
 
 
 * rails-backbone gem https://github.com/codebrew/backbone-rails
